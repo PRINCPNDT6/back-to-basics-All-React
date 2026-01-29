@@ -5,3 +5,6 @@ console.log(d);
 
 let c = 2
 console.log(c);
+
+let d = 3
+
