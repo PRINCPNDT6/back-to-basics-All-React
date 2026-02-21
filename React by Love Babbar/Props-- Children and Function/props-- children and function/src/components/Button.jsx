@@ -8,9 +8,9 @@ function Button({fncs, btnName, children}) {
  
       <>
       {children}
-      <button onClick={fncs}>
+      <Button onClick={fncs}>
         {btnName}
-      </button>
+      </Button>
       </>
   )
 }

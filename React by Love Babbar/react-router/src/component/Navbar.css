@@ -1,0 +1,27 @@
+.navar{
+    border: 1px solid;
+    background-color: black;
+    color: #fff;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    border: 1px solid;
+    padding: 20px;
+    margin: 0;
+    background-color: black;
+    color: #fff;
+    border-radius: 10px;
+     
+
+}
+
+ul li{
+    text-decoration: none;
+    color: #fff;
+}
+
