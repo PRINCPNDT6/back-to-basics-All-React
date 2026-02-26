@@ -15,7 +15,7 @@ function App() {
     if (isIncrement) {
       if (count === 20) {
         alert('count is 20')
-        setIsIncrement(false)   // switch mode
+        setIsIncrement(false)   
         setCount(count - 1)
         return
       }
@@ -24,7 +24,7 @@ function App() {
     
     else {
       if (count === 0) {
-        setIsIncrement(true)    // switch back
+        setIsIncrement(true)    
         setCount(count + 1)
         return
       }
