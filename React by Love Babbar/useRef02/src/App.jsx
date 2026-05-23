@@ -5,11 +5,11 @@ import './App.css'
 
 function App() {
   let [count, setCount] = useState(0);
-  let bgref = useRef();
+  let bgref = useRef(); 
   const handleClick = ()=>{
   setCount(count + 1)
     console.log('count from useState(0):',count);
-    bgref.current.style.backgroundColor = 'red'
+    bgref.current.style.backgroundColor = 'red';
     console.log(bgref.current.style.backgroundColor);
     
   }
@@ -32,9 +32,9 @@ function App() {
     <p ref={bgref}
     className='para' 
     >Count: ({count})</p>
-    {/* <p>CountTwo: ({countTwo})</p> */}
-    {/* <p>refThree: ({refThree})</p> */}
-    <button 
+    {countTwo}
+    {/* {refThree} */}
+     <button 
     onClick={handleClick}
     >Click</button>
     </>
